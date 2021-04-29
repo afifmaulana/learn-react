@@ -27,7 +27,7 @@ export default function CommonConfigs() {
   const props = useSpring({ xys, config });
 
   return (
-    <div className="ccard-main" ref={ref}>
+    <div className="ccard-main component-center" ref={ref}>
       <animated.div
         className="ccard"
         style={{ transform: props.xys.to(trans) }}

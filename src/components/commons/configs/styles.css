@@ -6,6 +6,10 @@
   border-radius: 7px;
   background: #f0f0f0;
 }
+.component-center{ 
+  justify-content: center;
+  align-items: center;
+}
 
 .ccard-main {
   width: 100%;
